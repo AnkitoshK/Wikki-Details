@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Santosh Gupta</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Santosh Gupta</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#movies" onclick="toggleMenu()">Movies</a></li>
+          <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/papa.jpg" alt="Santosh Gupta profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Santosh Gupta </h1>
+        <p class="section__text__p2">an Actor</p>
+        <div class="btn-container">
+          <!-- <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV -->
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/youtube.jpg"
+            alt="My Youtube profile"
+            class="icon"
+            onclick="location.href='https://www.youtube.com/@redsignalfilms3575'"
+          />
+          <img
+            src="./assets/instagram.jpeg"
+            alt="My insta profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/santosh_gupta_actor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='"
+          />
+          <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/share/uuuYonKSbv8fr6L2/?mibextid=qi2Omg'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>15+ years in acting.<br>and <br />10+ years in directing and writing</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.A(Bachelor's of Arts)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a seasoned professional actor and successful businessman, with years of experience in the entertainment industry and entrepreneurship. My passion for storytelling has driven my acting career, allowing me to connect deeply with audiences. I also run a YouTube channel called "Red Signal Films," where I've created many entertaining short films and serials.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Actings In</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dulha Bikta Hai</h3>
+                  <p>Lead Role</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kajri,Ego Gajbe Prem Kahani</h3>
+                  <p>Lead Role</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Toh Sang Preet Nibhayeb</h3>
+                  <p>Villen Role Play</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lallu Bihari</h3>
+                  <p>Villen Role Play</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sanam Dil Le Gail</h3>
+                  <p>Villen Role Play</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ye Ishq Bada Bedardi Hai</h3>
+                  <p>Villen Role Play</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Police Files</h3>
+                  <p>Serial</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Albums</h3>
+                  <p>Songs & Videos</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Short Videos</h3>
+                  <p>You Tube</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Writer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dulha Bikta Hai</h3>
+                  <p>Story Only</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kajri,Ego Gajbe Prem Kahani</h3>
+                  <p>Story Only</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+              <h3>Nasoor Thriller</h3>
+              <p>Serial</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jahannum Thriller</h3>
+                  <p>Serial</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Many More Serials available on you tube</h3>
+                  <p>Please Visit....</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#movies'"
+      />
+    </section>
+    <section id="movies">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Movies</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Kajri</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@redsignalfilms3575'"
+              >
+                You-Tube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://youtu.be/kigB5qV5oeQ?si=ZuLI4MJwDmigiuna'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dulha Bikta Hai</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@redsignalfilms3575'"
+              >
+              You-Tube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://youtu.be/RdgAfMnZKD4?si=-hWjOcqM8ItIfgFT'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Lallu Bihari</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/@redsignalfilms3575'"
+              >
+              You-Tube
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://youtu.be/jGIb5gfIB1k?si=pxNS8pzubvCgHb_8'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Contact'"
+      />
+    </section>
+
+ <!-- Gallery Section -->
+ <section id="gallery">
+  <p class="section__text__p1">Check Out My</p>
+  <h1 class="title">Gallery</h1>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="./assets/acting.jpg" alt="Gallery Image 1" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/acting111.jpg" alt="Gallery Image 2" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/banner1.jpg" alt="Gallery Image 3" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/banner.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/camera.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/darinde.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/dd1.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/direction.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/doordarshan.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/ganga.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/hh.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/mob.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/mob1.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/news.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/sanam.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/serial.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/shoot.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/shooting.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/shooting1.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/act.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/anup.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/bhoj.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/direction1.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/hero12.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/heroine.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/news.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/villain.jpg" alt="Gallery Image 4" />
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/paper.jpg" alt="Gallery Image 4" />
+    </div>
+    <!-- Add more images as needed -->
+  </div>
+</section>
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">For any movie related work, serials, you tube content videos,Story Writing e.t.c. can update me</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:gsantoshgupta52@gmail.com">gsantoshgupta52@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <!-- <img
+            src="./assets/enquiry.jpeg"
+            alt="instagram. icon" -->
+            <!-- class="icon contact-icon"
+          /> -->
+          <p><div class="btn-container">
+            <a href="https://wa.me/8210723835?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank">
+              <button class="btn btn-color-1">Enquiry</button>
+            </a>
+          </div></p>
+        </div>
+      </div>
+    </section>
+
+      <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ankitosh Gupta. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
